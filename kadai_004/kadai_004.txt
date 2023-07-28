@@ -1,15 +1,34 @@
-cd Desktop
-mkdir git_challenge
-cd git_challenge
-git init
+C:\Users\関根智樹>cd Desktop
 
-<hello_world.txtを作成して Hello, world! を記入>
+C:\Users\関根智樹\Desktop>cd git_challenge
 
-git add hello_world.txt
-git commit -m "hello_world.txtを追加"
+C:\Users\関根智樹\Desktop\git_challenge>git init
+Initialized empty Git repository in C:/Users/関根智樹/Desktop/git_challenge/.git/
 
-<hello_world.txtに　こんにちは、 世界！ を記入>
+C:\Users\関根智樹\Desktop\git_challenge>git add hello_world.txt
 
-git add hello_world.txt
-git commit -m "日本語訳を追記"
-git log
+C:\Users\関根智樹\Desktop\git_challenge>git commit -m "hello_world.txtを追加"
+[master (root-commit) 82d8dec] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\関根智樹\Desktop\git_challenge>git add hello_world.txt
+
+C:\Users\関根智樹\Desktop\git_challenge>git commit -m "日本語訳を追記"
+[master b49b464] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+C:\Users\関根智樹\Desktop\git_challenge>git log
+commit b49b4641149847d7dc05f2c9aea6a4db5d7fe3e2 (HEAD -> master)
+Author: ts271828 <tomoki.sekine@icloud.com>
+Date:   Fri Jul 28 16:57:45 2023 +0900
+
+    日本語訳を追記
+
+commit 82d8dec0875cb89ed9f4ae1cd882d44004160565
+Author: ts271828 <tomoki.sekine@icloud.com>
+Date:   Fri Jul 28 16:56:48 2023 +0900
+
+    hello_world.txtを追加
+
+C:\Users\関根智樹\Desktop\git_challenge>
